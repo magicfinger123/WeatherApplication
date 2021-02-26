@@ -9,9 +9,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17e5b331-f578-4194-83f3-961dca703351" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="17e5b331-f578-4194-83f3-961dca703351" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -472,10 +470,10 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="815" y="449" key="AndroidCreateXmlResourceDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1614353300795" />
-    <state x="555" y="217" key="CommitChangelistDialog2" timestamp="1614372305725">
+    <state x="555" y="217" key="CommitChangelistDialog2" timestamp="1614373245768">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="555" y="217" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1614372305725" />
+    <state x="555" y="217" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1614373245768" />
     <state width="619" height="646" key="DebuggerActiveHint" timestamp="1614295416380">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
@@ -525,26 +523,26 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="192" y="109" key="MergeDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1614343360580" />
-    <state x="664" y="314" key="MultipleFileMergeDialog" timestamp="1614344700004">
+    <state x="664" y="314" key="MultipleFileMergeDialog" timestamp="1614373301020">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="664" y="314" key="MultipleFileMergeDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1614344700004" />
+    <state x="664" y="314" key="MultipleFileMergeDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1614373301020" />
     <state x="461" y="239" key="SettingsEditor" timestamp="1614342714388">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="461" y="239" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1614342714388" />
-    <state x="560" y="336" key="Vcs.Push.Dialog.v2" timestamp="1614371371356">
+    <state x="560" y="336" key="Vcs.Push.Dialog.v2" timestamp="1614373255736">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="560" y="336" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1614371371356" />
+    <state x="560" y="336" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1614373255736" />
     <state x="100" y="100" width="1720" height="1000" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1614342714965">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="100" y="100" width="1720" height="1000" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1614342714965" />
-    <state x="693" y="238" key="git4idea.branch.GitSmartOperationDialog" timestamp="1614343347076">
+    <state x="693" y="238" key="git4idea.branch.GitSmartOperationDialog" timestamp="1614373287888">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="693" y="238" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1614343347076" />
+    <state x="693" y="238" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1614373287888" />
     <state x="666" y="307" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1614260846588">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>

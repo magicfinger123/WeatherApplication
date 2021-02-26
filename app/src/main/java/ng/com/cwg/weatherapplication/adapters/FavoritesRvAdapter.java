@@ -55,6 +55,7 @@ public  class FavoritesRvAdapter extends RecyclerView.Adapter<FavoritesRvAdapter
                 break;
 
 
+
         }
 
     }
