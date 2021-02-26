@@ -89,7 +89,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="test" />
         <entry key="$PROJECT_DIR$/app" value="master" />
       </map>
     </option>
@@ -424,7 +424,28 @@
       <option name="project" value="LOCAL" />
       <updated>1614371362817</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="updates Actions and workflow">
+      <created>1614373236787</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1614373236787</updated>
+    </task>
+    <task id="LOCAL-00010" summary="updates Actions and workflow">
+      <created>1614373245913</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1614373245913</updated>
+    </task>
+    <task id="LOCAL-00011" summary="updates Actions and workflow">
+      <created>1614373319902</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1614373319902</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -435,7 +456,8 @@
     <MESSAGE value="Add github actions for CI CD &quot;pipeline&quot;" />
     <MESSAGE value="updated FavoritesRvAdapter, SearchPlacesFragment" />
     <MESSAGE value="updates FavoritesRvAdapter" />
-    <option name="LAST_COMMIT_MESSAGE" value="updates FavoritesRvAdapter" />
+    <MESSAGE value="updates Actions and workflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates Actions and workflow" />
   </component>
   <component name="WindowStateProjectService">
     <state x="773" y="283" key="#com.intellij.ide.util.MemberChooser" timestamp="1614354145772">
@@ -470,11 +492,11 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="815" y="449" key="AndroidCreateXmlResourceDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1614353300795" />
-    <state x="555" y="217" key="CommitChangelistDialog2" timestamp="1614373236652">
+    <state x="819" y="365" key="AndroidProcessChooserDialog" timestamp="1614374139196">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="555" y="217" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1614373236652" />
-    <state width="619" height="646" key="DebuggerActiveHint" timestamp="1614295416380">
+    <state x="819" y="365" key="AndroidProcessChooserDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1614374139196" />
+    <state x="555" y="217" key="CommitChangelistDialog2" timestamp="1614373497462">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state width="619" height="646" key="DebuggerActiveHint/0.0.1920.1200@0.0.1920.1200" timestamp="1614295416380" />
@@ -523,26 +545,26 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="192" y="109" key="MergeDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1614343360580" />
-    <state x="664" y="314" key="MultipleFileMergeDialog" timestamp="1614344700004">
+    <state x="664" y="314" key="MultipleFileMergeDialog" timestamp="1614373301020">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="664" y="314" key="MultipleFileMergeDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1614344700004" />
+    <state x="664" y="314" key="MultipleFileMergeDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1614373301020" />
     <state x="461" y="239" key="SettingsEditor" timestamp="1614342714388">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="461" y="239" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1614342714388" />
-    <state x="560" y="336" key="Vcs.Push.Dialog.v2" timestamp="1614371371356">
+    <state x="560" y="336" key="Vcs.Push.Dialog.v2" timestamp="1614373322005">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="560" y="336" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1614371371356" />
+    <state x="560" y="336" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1614373322005" />
     <state x="100" y="100" width="1720" height="1000" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1614342714965">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="100" y="100" width="1720" height="1000" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1614342714965" />
-    <state x="693" y="238" key="git4idea.branch.GitSmartOperationDialog" timestamp="1614343347076">
+    <state x="693" y="238" key="git4idea.branch.GitSmartOperationDialog" timestamp="1614373287888">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="693" y="238" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1614343347076" />
+    <state x="693" y="238" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1614373287888" />
     <state x="666" y="307" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1614260846588">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
@@ -581,12 +603,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/test/java/ng/com/cwg/weatherapplication/LocationTest.kt</url>
-          <line>51</line>
+          <line>55</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/test/java/ng/com/cwg/weatherapplication/LocationTest.kt</url>
-          <line>49</line>
+          <line>53</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
@@ -596,7 +618,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/test/java/ng/com/cwg/weatherapplication/LocationTest.kt</url>
-          <line>50</line>
+          <line>54</line>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">

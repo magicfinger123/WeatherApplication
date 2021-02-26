@@ -1,10 +1,12 @@
 package ng.com.cwg.weatherapplication
 
+import android.app.Application
 import android.location.Location
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import com.google.android.gms.location.FusedLocationProviderClient
 import io.mockk.mockk
 import junit.framework.Assert
+import junit.framework.Assert.assertNotNull
 import ng.com.cwg.weatherapplication.viewmodel.WeatherViewModel
 import org.junit.Rule
 import org.junit.Test
@@ -29,6 +31,8 @@ import org.robolectric.RuntimeEnvironment.application
     @get:Rule
     var rule: TestRule = InstantTaskExecutorRule()
 
+    private var application: Application = mock(Application::class.java)
+
 
     @Mock
     private lateinit var location: Location
@@ -49,7 +53,7 @@ import org.robolectric.RuntimeEnvironment.application
         locationClient.setMockLocation(mockLocation)
         weatherViewModel.observeLocation(locationClient).observeForever {
             println(it.latitude)
-            Assert.assertNotNull(it)
+            assertNotNull(it)
         }
     }
  }
