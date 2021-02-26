@@ -53,9 +53,6 @@ public  class FavoritesRvAdapter extends RecyclerView.Adapter<FavoritesRvAdapter
             default:
                 holder.weatherIcon.setImageResource(R.drawable.clear);
                 break;
-
-
-
         }
 
     }

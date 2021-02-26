@@ -9,7 +9,10 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17e5b331-f578-4194-83f3-961dca703351" name="Default Changelist" comment="" />
+    <list default="true" id="17e5b331-f578-4194-83f3-961dca703351" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ng/com/cwg/weatherapplication/adapters/FavoritesRvAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ng/com/cwg/weatherapplication/adapters/FavoritesRvAdapter.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +92,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="test" />
         <entry key="$PROJECT_DIR$/app" value="master" />
       </map>
     </option>
@@ -424,7 +427,28 @@
       <option name="project" value="LOCAL" />
       <updated>1614371362817</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="updates Actions and workflow">
+      <created>1614373236787</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1614373236787</updated>
+    </task>
+    <task id="LOCAL-00010" summary="updates Actions and workflow">
+      <created>1614373245913</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1614373245913</updated>
+    </task>
+    <task id="LOCAL-00011" summary="updates Actions and workflow">
+      <created>1614373319902</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1614373319902</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -435,7 +459,8 @@
     <MESSAGE value="Add github actions for CI CD &quot;pipeline&quot;" />
     <MESSAGE value="updated FavoritesRvAdapter, SearchPlacesFragment" />
     <MESSAGE value="updates FavoritesRvAdapter" />
-    <option name="LAST_COMMIT_MESSAGE" value="updates FavoritesRvAdapter" />
+    <MESSAGE value="updates Actions and workflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates Actions and workflow" />
   </component>
   <component name="WindowStateProjectService">
     <state x="773" y="283" key="#com.intellij.ide.util.MemberChooser" timestamp="1614354145772">
@@ -470,10 +495,10 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="815" y="449" key="AndroidCreateXmlResourceDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1614353300795" />
-    <state x="555" y="217" key="CommitChangelistDialog2" timestamp="1614373245768">
+    <state x="555" y="217" key="CommitChangelistDialog2" timestamp="1614373319758">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="555" y="217" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1614373245768" />
+    <state x="555" y="217" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1614373319758" />
     <state width="619" height="646" key="DebuggerActiveHint" timestamp="1614295416380">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
@@ -531,10 +556,10 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="461" y="239" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1614342714388" />
-    <state x="560" y="336" key="Vcs.Push.Dialog.v2" timestamp="1614373255736">
+    <state x="560" y="336" key="Vcs.Push.Dialog.v2" timestamp="1614373322005">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="560" y="336" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1614373255736" />
+    <state x="560" y="336" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1614373322005" />
     <state x="100" y="100" width="1720" height="1000" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1614342714965">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
