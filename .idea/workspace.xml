@@ -9,9 +9,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17e5b331-f578-4194-83f3-961dca703351" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="17e5b331-f578-4194-83f3-961dca703351" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -495,11 +493,11 @@
     </state>
     <state x="815" y="449" key="AndroidCreateXmlResourceDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1614353300795" />
     <state x="819" y="365" key="AndroidProcessChooserDialog" timestamp="1614374139196">
-    <screen x="0" y="0" width="1920" height="1200" />
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="819" y="365" key="AndroidProcessChooserDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1614374139196" />
     <state x="555" y="217" key="CommitChangelistDialog2" timestamp="1614373497462">
-    <screen x="0" y="0" width="1920" height="1200" />
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state width="619" height="646" key="DebuggerActiveHint/0.0.1920.1200@0.0.1920.1200" timestamp="1614295416380" />
     <state width="619" height="646" key="DebuggerActiveHint/0.23.1920.1177@0.23.1920.1177" timestamp="1614211013441" />
@@ -605,12 +603,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/test/java/ng/com/cwg/weatherapplication/LocationTest.kt</url>
-          <line>51</line>
+          <line>55</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/test/java/ng/com/cwg/weatherapplication/LocationTest.kt</url>
-          <line>49</line>
+          <line>53</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
@@ -620,7 +618,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/test/java/ng/com/cwg/weatherapplication/LocationTest.kt</url>
-          <line>50</line>
+          <line>54</line>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
