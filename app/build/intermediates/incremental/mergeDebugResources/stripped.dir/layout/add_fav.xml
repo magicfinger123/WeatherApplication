@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        style="@style/parent"
+    android:background="#ffffff"
+        android:layout_marginHorizontal="10dp"
+
+        android:elevation="5dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/aldrich"
+                android:text="Add Favorite"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/nunito_extralight"
+                android:text="Enter Name" />
+
+            <EditText
+                android:id="@+id/favTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edittext_button_background_small_corner"
+                android:fontFamily="@font/nunito_extralight"
+                android:paddingHorizontal="15dp"
+                android:paddingTop="25dp"
+                android:paddingBottom="10dp"
+                android:textSize="12sp"
+                app:background="@null"
+                app:backgroundTint="@null" />
+
+            <!-- <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="Residential Information"
+                 android:layout_marginTop="16dp"
+                 android:fontFamily="@font/aldrich" />
+
+
+ -->
+
+            <Button
+                android:id="@+id/addToFavorite"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/background_gradient_all_corner"
+                android:textColor="@color/white"
+                android:text="@string/add_favorite"
+                android:visibility="visible"
+                app:backgroundTint="@null" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+

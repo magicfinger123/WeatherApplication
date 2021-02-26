@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">WeatherApplication</string>
+    <string name="base_url">https://openweathermap.org/</string>
+    <string name="api_key">d650e5fbff84aeb089e3d3177bfa2249</string>
+    <string name="weather_icon_status">weather icon status</string>
+    <string name="google_places_api_key">AIzaSyD0bj328FfYTungLvwzUXR384sJuo6kPNI</string>
+    <string name="location">Location</string>
+    <string name="add_as_favorite">Add as favorite</string>
+    <string name="celsius_symbol">°</string>
+    <string name="select">Favorites</string>
+    <string name="favorites">Favorites</string>
+    <string name="home">Home</string>
+    <string name="add_favorite">Add Favorite</string>
+    <string name="title">title</string>
+</resources>

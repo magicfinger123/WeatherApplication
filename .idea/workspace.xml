@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="17e5b331-f578-4194-83f3-961dca703351" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="271" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_Q" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="WeatherApplication" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="WeatherApplication" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="WeatherApplication" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="android" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="WeatherApplication" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="WeatherApplication" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileColors">
+    <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
+    <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
+    <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
+    <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="navigationResourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="resourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/app" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectId" id="1ot89zTSFMPNEnGuyUQUGycpPGB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_2_API_Q" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-02-25T22:45:52.825Z" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.-1341825799">
+      <recent name="ng.com.cwg.weatherapplication.view" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="ng.com.cwg.weatherapplication.view" />
+      <recent name="ng.com.cwg.weatherapplication.service" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ng.com.cwg.weatherapplication.model" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="ng.com.cwg.weatherapplication.model.location" />
+      <recent name="ng.com.cwg.weatherapplication.view.fragment" />
+      <recent name="ng.com.cwg.weatherapplication.viewmodel" />
+      <recent name="ng.com.cwg.weatherapplication.view" />
+      <recent name="ng.com.cwg.weatherapplication.model.weatherapplication" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/font" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/ng/com/cwg/weatherapplication/view" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ng.com.cwg.weatherapplication.custom" />
+      <recent name="ng.com.cwg.weatherapplication.adapters" />
+      <recent name="ng.com.cwg.weatherapplication.db.entity" />
+      <recent name="ng.com.cwg.weatherapplication.model.googlePlaces" />
+      <recent name="ng.com.cwg.weatherapplication.db.io" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration name="WeatherCurrentInfoTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ng.com.cwg.weatherapplication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ng.com.cwg.weatherapplication" />
+      <option name="MAIN_CLASS_NAME" value="ng.com.cwg.weatherapplication.WeatherCurrentInfoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherCurrentInfoTest.getCurrentWeatherTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ng.com.cwg.weatherapplication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ng.com.cwg.weatherapplication" />
+      <option name="MAIN_CLASS_NAME" value="ng.com.cwg.weatherapplication.WeatherCurrentInfoTest" />
+      <option name="METHOD_NAME" value="getCurrentWeatherTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherForecastInfoTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ng.com.cwg.weatherapplication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ng.com.cwg.weatherapplication" />
+      <option name="MAIN_CLASS_NAME" value="ng.com.cwg.weatherapplication.WeatherForecastInfoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherForecastInfoTest.getCurrentWeatherTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ng.com.cwg.weatherapplication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ng.com.cwg.weatherapplication" />
+      <option name="MAIN_CLASS_NAME" value="ng.com.cwg.weatherapplication.WeatherForecastInfoTest" />
+      <option name="METHOD_NAME" value="getCurrentWeatherTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherApplication [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android JUnit.WeatherForecastInfoTest" />
+        <item itemvalue="Android JUnit.WeatherCurrentInfoTest" />
+        <item itemvalue="Android JUnit.WeatherCurrentInfoTest.getCurrentWeatherTest" />
+        <item itemvalue="Gradle.WeatherApplication [signingReport]" />
+        <item itemvalue="Android JUnit.WeatherForecastInfoTest.getCurrentWeatherTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17e5b331-f578-4194-83f3-961dca703351" name="Default Changelist" comment="" />
+      <created>1614094378781</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614094378781</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Tested fetch user current location and weather information">
+      <created>1614338781389</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614338781389</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Tested fetch user current location and weather information" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tested fetch user current location and weather information" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="773" y="283" key="#com.intellij.ide.util.MemberChooser" timestamp="1614327446768">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="773" y="283" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1614327446768" />
+    <state x="636" y="449" width="651" height="304" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1614155492269">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="636" y="449" width="651" height="304" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1200@0.0.1920.1200" timestamp="1614155492269" />
+    <state x="721" y="30" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1614120601406">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="721" y="30" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1614120601406" />
+    <state x="658" y="132" width="607" height="935" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1614329046803">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="658" y="132" width="607" height="935" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1614329046803" />
+    <state x="713" y="439" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1614290589261">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="713" y="439" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1200@0.0.1920.1200" timestamp="1614290589261" />
+    <state x="548" y="362" width="824" height="472" key="AndroidCreateResourceFileDialog" timestamp="1614326896991">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="548" y="362" width="824" height="472" key="AndroidCreateResourceFileDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1614326896991" />
+    <state x="815" y="449" key="AndroidCreateXmlResourceDialog" timestamp="1614334671689">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="815" y="449" key="AndroidCreateXmlResourceDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1614334671689" />
+    <state x="555" y="217" key="CommitChangelistDialog2" timestamp="1614338781063">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="555" y="217" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1614338781063" />
+    <state width="619" height="646" key="DebuggerActiveHint" timestamp="1614295416380">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="619" height="646" key="DebuggerActiveHint/0.0.1920.1200@0.0.1920.1200" timestamp="1614295416380" />
+    <state width="619" height="646" key="DebuggerActiveHint/0.23.1920.1177@0.23.1920.1177" timestamp="1614211013441" />
+    <state x="794" y="501" key="Github.ShareDialog" timestamp="1614338831226">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="794" y="501" key="Github.ShareDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1614338831226" />
+    <state width="1878" height="317" key="GridCell.Tab.0.bottom" timestamp="1614342166357">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="317" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1614342166357" />
+    <state width="1878" height="317" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1614335697300" />
+    <state width="1878" height="317" key="GridCell.Tab.0.center" timestamp="1614342166353">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="317" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1614342166353" />
+    <state width="1878" height="317" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1614335697293" />
+    <state width="1878" height="317" key="GridCell.Tab.0.left" timestamp="1614342166352">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="317" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1614342166352" />
+    <state width="1878" height="317" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1614335697291" />
+    <state width="1878" height="317" key="GridCell.Tab.0.right" timestamp="1614342166355">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="317" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1614342166355" />
+    <state width="1878" height="317" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1614335697295" />
+    <state width="1878" height="393" key="GridCell.Tab.1.bottom" timestamp="1614324745072">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="393" key="GridCell.Tab.1.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1614324745072" />
+    <state width="1878" height="393" key="GridCell.Tab.1.center" timestamp="1614324745069">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="393" key="GridCell.Tab.1.center/0.0.1920.1200@0.0.1920.1200" timestamp="1614324745069" />
+    <state width="1878" height="393" key="GridCell.Tab.1.left" timestamp="1614324745068">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="393" key="GridCell.Tab.1.left/0.0.1920.1200@0.0.1920.1200" timestamp="1614324745068" />
+    <state width="1878" height="393" key="GridCell.Tab.1.right" timestamp="1614324745071">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="393" key="GridCell.Tab.1.right/0.0.1920.1200@0.0.1920.1200" timestamp="1614324745071" />
+    <state x="461" y="239" key="SettingsEditor" timestamp="1614342388684">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="461" y="239" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1614342388684" />
+    <state x="560" y="336" key="Vcs.Push.Dialog.v2" timestamp="1614340770141">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="560" y="336" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1614340770141" />
+    <state x="666" y="307" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1614260846588">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="666" y="307" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1614260846588" />
+    <state x="687" y="233" key="refactoring.ChangeSignatureDialog" timestamp="1614148992858">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="687" y="233" key="refactoring.ChangeSignatureDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1614148992858" />
+    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup" timestamp="1614242667504">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1614242667504" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/test/java/ng/com/cwg/weatherapplication/WeatherCurrentInfoTest.kt</url>
+          <line>41</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/test/java/ng/com/cwg/weatherapplication/WeatherCurrentInfoTest.kt</url>
+          <line>43</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/test/java/ng/com/cwg/weatherapplication/WeatherForecastInfoTest.kt</url>
+          <line>61</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/test/java/ng/com/cwg/weatherapplication/WeatherForecastInfoTest.kt</url>
+          <line>66</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/test/java/ng/com/cwg/weatherapplication/LocationTest.kt</url>
+          <line>51</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/test/java/ng/com/cwg/weatherapplication/LocationTest.kt</url>
+          <line>49</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/test/java/ng/com/cwg/weatherapplication/WeatherForecastInfoTest.kt</url>
+          <line>94</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/test/java/ng/com/cwg/weatherapplication/LocationTest.kt</url>
+          <line>50</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ng/com/cwg/weatherapplication/view/MainActivity.kt</url>
+          <line>74</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ng/com/cwg/weatherapplication/view/fragment/HomeFragment.kt</url>
+          <line>71</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ng/com/cwg/weatherapplication/view/fragment/MapsFragment.kt</url>
+          <line>28</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/app/src/test/java/ng/com/cwg/weatherapplication/WeatherForecastInfoTest.kt</url>
+          <line>84</line>
+          <properties class="ng.com.cwg.weatherapplication.WeatherForecastInfoTest" method="getWeatherInformationForCurrentLocation">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ng/com/cwg/weatherapplication/view/fragment/HomeFragment.kt</url>
+          <line>217</line>
+          <properties class="ng.com.cwg.weatherapplication.view.fragment.HomeFragment" method="addToFav">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/WeatherApplication$weatherapplication_in_app.ic" NAME="weatherapplication in app Coverage Results" MODIFIED="1614145614111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/WeatherApplication$WeatherForecastInfoTest_getCurrentWeatherTest.ic" NAME="WeatherForecastInfoTest.getCurrentWeatherTest Coverage Results" MODIFIED="1614163292169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ng.com.cwg.weatherapplication.*</FILTER>
+    </SUITE>
+  </component>
+</project>

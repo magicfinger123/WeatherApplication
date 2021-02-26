@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/favorites_fragment.xml",
+        "source": "/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/src/main/res/layout/favorites_fragment.xml"
+    },
+    {
+        "merged": "/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/home_fragment.xml",
+        "source": "/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/src/main/res/layout/home_fragment.xml"
+    }
+]
