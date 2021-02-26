@@ -95,6 +95,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1ot89zTSFMPNEnGuyUQUGycpPGB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -370,6 +377,9 @@
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/app" />
+    </ignored-roots>
     <MESSAGE value="Tested fetch user current location and weather information" />
     <option name="LAST_COMMIT_MESSAGE" value="Tested fetch user current location and weather information" />
   </component>
@@ -451,14 +461,18 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state width="1878" height="393" key="GridCell.Tab.1.right/0.0.1920.1200@0.0.1920.1200" timestamp="1614324745071" />
-    <state x="461" y="239" key="SettingsEditor" timestamp="1614342388684">
+    <state x="461" y="239" key="SettingsEditor" timestamp="1614342714388">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="461" y="239" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1614342388684" />
+    <state x="461" y="239" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1614342714388" />
     <state x="560" y="336" key="Vcs.Push.Dialog.v2" timestamp="1614340770141">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="560" y="336" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1614340770141" />
+    <state x="100" y="100" width="1720" height="1000" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1614342714965">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="100" y="100" width="1720" height="1000" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1614342714965" />
     <state x="666" y="307" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1614260846588">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
