@@ -9,10 +9,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17e5b331-f578-4194-83f3-961dca703351" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ng/com/cwg/weatherapplication/adapters/FavoritesRvAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ng/com/cwg/weatherapplication/adapters/FavoritesRvAdapter.java" afterDir="false" />
-    </list>
+    <list default="true" id="17e5b331-f578-4194-83f3-961dca703351" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -495,10 +492,10 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="815" y="449" key="AndroidCreateXmlResourceDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1614353300795" />
-    <state x="555" y="217" key="CommitChangelistDialog2" timestamp="1614373319758">
+    <state x="555" y="217" key="CommitChangelistDialog2" timestamp="1614373236652">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="555" y="217" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1614373319758" />
+    <state x="555" y="217" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1614373236652" />
     <state width="619" height="646" key="DebuggerActiveHint" timestamp="1614295416380">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
