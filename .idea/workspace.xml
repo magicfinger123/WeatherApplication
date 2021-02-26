@@ -9,7 +9,10 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17e5b331-f578-4194-83f3-961dca703351" name="Default Changelist" comment="" />
+    <list default="true" id="17e5b331-f578-4194-83f3-961dca703351" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/android_build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/android_build.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -389,7 +392,35 @@
       <option name="project" value="LOCAL" />
       <updated>1614343164812</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Set up git hub actions workflow">
+      <created>1614343209046</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614343209046</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Set up git hub actions workflow">
+      <created>1614343232674</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1614343232674</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Set up git hub actions workflow">
+      <created>1614343308341</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1614343308341</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Set up git hub actions workflow">
+      <created>1614343384569</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1614343384569</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -398,7 +429,8 @@
     </ignored-roots>
     <MESSAGE value="Tested fetch user current location and weather information" />
     <MESSAGE value="Add github actions for CI CD &quot;pipeline&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add github actions for CI CD &quot;pipeline&quot;" />
+    <MESSAGE value="Set up git hub actions workflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set up git hub actions workflow" />
   </component>
   <component name="WindowStateProjectService">
     <state x="773" y="283" key="#com.intellij.ide.util.MemberChooser" timestamp="1614327446768">
