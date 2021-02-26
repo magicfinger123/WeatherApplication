@@ -34,6 +34,7 @@ import ng.com.cwg.weatherapplication.model.weather.*
 import ng.com.cwg.weatherapplication.service.WeatherResource
 import ng.com.cwg.weatherapplication.utils.AppUtils
 import ng.com.cwg.weatherapplication.utils.LocationUtil
+import ng.com.cwg.weatherapplication.view.MainActivity
 import ng.com.cwg.weatherapplication.viewmodel.WeatherViewModel
 
 class SearchPlace : Fragment() {
@@ -90,18 +91,19 @@ class SearchPlace : Fragment() {
         weatherObseerver = Observer<WeatherResource<WeatherDto>>{
             when (it?.status) {
                 WeatherResource.ResponseStatus.LOADING -> {
-                    println("App is loading")
+                    (activity as MainActivity).showLoading(true)
                 }
                 WeatherResource.ResponseStatus.SUCCESSFUL ->{
-                    println("App has loaded")
+                    (activity as MainActivity).showLoading(false)
                     val weatherCurrentInfo = WeatherCurrentInfo(
+
                         AppUtils.convertKelvinToCelsius(it.data!!.main!!.temp).toString()+resources.getString(
                         R.string.celsius_symbol
                     ),
                         AppUtils.convertKelvinToCelsius(it.data.main!!.tempMax).toString()+resources.getString(
                             R.string.celsius_symbol
                         ),
-                        AppUtils.convertKelvinToCelsius(it.data.main!!.tempMax).toString()+resources.getString(
+                        AppUtils.convertKelvinToCelsius(it.data.main!!.tempMin).toString()+resources.getString(
                             R.string.celsius_symbol
                         ),
                         it.data.weather!![0].main!!,
@@ -110,10 +112,12 @@ class SearchPlace : Fragment() {
                     weatherViewModel.setWeatherCurrentInfo(weatherCurrentInfo)
                 }
                 WeatherResource.ResponseStatus.ERROR -> {
+                    (activity as MainActivity).showLoading(false)
                     Log.d("TAG", "subscribeToLoginObserver:Error ${it.data!!.message}")
                     println("subscribeToLoginObserver:Error ${it.data.message}")
                 }
                 WeatherResource.ResponseStatus.FAILED -> {
+                    (activity as MainActivity).showLoading(false)
                     Log.d("TAG", "getUserCurrentLocation: Failed")
                     println("On Failure")
                 }
@@ -124,18 +128,20 @@ class SearchPlace : Fragment() {
         weatherForcastObseerver = Observer<WeatherResource<WeatherForcastDto>>{
             when (it?.status) {
                 WeatherResource.ResponseStatus.LOADING -> {
-                    println("App is loading")
+                    (activity as MainActivity).showLoading(true)
                 }
                 WeatherResource.ResponseStatus.SUCCESSFUL ->{
-                    println("App has loaded")
+                    (activity as MainActivity).showLoading(false)
                     val list   = it.data!!.list
                     getDayAndTempAverage(list,it.data.list?.get(0)!!.main!!.temp!!)
                 }
                 WeatherResource.ResponseStatus.ERROR -> {
+                    (activity as MainActivity).showLoading(false)
                     Log.d("TAG", "subscribeToLoginObserver:Error ${it.data!!.message}")
                     println("subscribeToLoginObserver:Error ${it.data.message}")
                 }
                 WeatherResource.ResponseStatus.FAILED -> {
+                    (activity as MainActivity).showLoading(false)
                     Log.d("TAG", "getUserCurrentLocation: Failed")
                     println("On Failure")
                 }

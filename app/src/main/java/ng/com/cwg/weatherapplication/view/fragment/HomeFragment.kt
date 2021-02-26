@@ -39,7 +39,10 @@ import ng.com.cwg.weatherapplication.service.WeatherResource
 import ng.com.cwg.weatherapplication.utils.AppConstant
 import ng.com.cwg.weatherapplication.utils.AppUtils
 import ng.com.cwg.weatherapplication.utils.LocationUtil
+import ng.com.cwg.weatherapplication.view.MainActivity
 import ng.com.cwg.weatherapplication.viewmodel.WeatherViewModel
+import java.util.*
+import kotlin.collections.ArrayList
 
 class HomeFragment : Fragment() {
 
@@ -100,9 +103,10 @@ class HomeFragment : Fragment() {
         weatherObseerver = Observer<WeatherResource<WeatherDto>>{
             when (it?.status) {
                 WeatherResource.ResponseStatus.LOADING -> {
-                    println("App is loading")
+                    (activity as MainActivity).showLoading(true)
                 }
                 WeatherResource.ResponseStatus.SUCCESSFUL ->{
+                    (activity as MainActivity).showLoading(false)
                     println("App has loaded")
                     val weatherCurrentInfo = WeatherCurrentInfo(AppUtils.convertKelvinToCelsius(it.data!!.main!!.temp).toString()+resources.getString(
                         R.string.celsius_symbol
@@ -110,7 +114,7 @@ class HomeFragment : Fragment() {
                         AppUtils.convertKelvinToCelsius(it.data.main!!.tempMax).toString()+resources.getString(
                             R.string.celsius_symbol
                         ),
-                        AppUtils.convertKelvinToCelsius(it.data.main!!.tempMax).toString()+resources.getString(
+                        AppUtils.convertKelvinToCelsius(it.data.main!!.tempMin).toString()+resources.getString(
                             R.string.celsius_symbol
                         ),
                         it.data.weather!![0].main!!,
@@ -119,10 +123,12 @@ class HomeFragment : Fragment() {
                     weatherViewModel.setWeatherCurrentInfo(weatherCurrentInfo)
                 }
                 WeatherResource.ResponseStatus.ERROR -> {
+                    (activity as MainActivity).showLoading(false)
                     Log.d("TAG", "subscribeToLoginObserver:Error ${it.data!!.message}")
                     println("subscribeToLoginObserver:Error ${it.data.message}")
                 }
                 WeatherResource.ResponseStatus.FAILED -> {
+                    (activity as MainActivity).showLoading(false)
                     Log.d("TAG", "getUserCurrentLocation: Failed")
                     println("On Failure")
                 }
@@ -134,17 +140,20 @@ class HomeFragment : Fragment() {
             when (it?.status) {
                 WeatherResource.ResponseStatus.LOADING -> {
                     println("App is loading")
+                    (activity as MainActivity).showLoading(true)
                 }
                 WeatherResource.ResponseStatus.SUCCESSFUL ->{
-                    println("App has loaded")
+                    (activity as MainActivity).showLoading(false)
                     val list   = it.data!!.list
                     getDayAndTempAverage(list,it.data.list?.get(0)!!.main!!.temp!!)
                 }
                 WeatherResource.ResponseStatus.ERROR -> {
+                    (activity as MainActivity).showLoading(false)
                     Log.d("TAG", "subscribeToLoginObserver:Error ${it.data!!.message}")
                     println("subscribeToLoginObserver:Error ${it.data.message}")
                 }
                 WeatherResource.ResponseStatus.FAILED -> {
+                    (activity as MainActivity).showLoading(false)
                     Log.d("TAG", "getUserCurrentLocation: Failed")
                     println("On Failure")
                 }
@@ -160,7 +169,7 @@ class HomeFragment : Fragment() {
         temperatureTextView.text = it.currentTemp
         weatherStatusTextView.text = it.weatherType
         placeInfo.text = it.address
-        when (it.weatherType.toLowerCase()) {
+        when (it.weatherType.toLowerCase(Locale.ROOT)) {
             "clouds" -> {
                 topRelativeLayout.setBackgroundResource(R.drawable.forest_cloudy)
                 parentLayout.setBackgroundColor(resources.getColor(R.color.colorCloudy))
@@ -245,7 +254,6 @@ class HomeFragment : Fragment() {
                 var btnContinue = view.findViewById<Button>(R.id.addToFavorite)
                 var editText = view.findViewById<EditText>(R.id.favTitle)
                 btnContinue.setOnClickListener(View.OnClickListener {
-                    // accViewModel.getSavingsAccounts()
                     if (TextUtils.isEmpty(editText.text)) {
                         favTitle.error = "Please enter  a title"
                         return@OnClickListener
@@ -283,11 +291,9 @@ class HomeFragment : Fragment() {
                             LocationModel(lat.toDouble(),lng.toDouble())
                         ))
                         AppUtils.debug("Place: ${place.name}, ${place.latLng.toString().replace("(","").replace(")","").split(",")[0]}")
-
                     }
                 }
                 AutocompleteActivity.RESULT_ERROR -> {
-                    // TODO: Handle the error.
                     data?.let {
                         val status = Autocomplete.getStatusFromIntent(data)
                         AppUtils.debug(status.statusMessage)

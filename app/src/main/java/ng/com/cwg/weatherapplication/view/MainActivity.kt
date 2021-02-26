@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import kotlinx.android.synthetic.main.activity_main.*
 import ng.com.cwg.weatherapplication.R
 import ng.com.cwg.weatherapplication.view.fragment.FavoriteListBottomSheet
 
@@ -24,5 +25,15 @@ class MainActivity : AppCompatActivity() {
         FavoriteListBottomSheet().apply(fun FavoriteListBottomSheet.() {
             show(supportFragmentManager, tag)
         })
+    }
+    fun showLoading(status: Boolean) {
+        runOnUiThread {
+            if (status) {
+                loadingRV.visibility = View.VISIBLE
+            } else {
+                loadingRV.visibility = View.GONE
+
+            }
+        }
     }
 }

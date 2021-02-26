@@ -24,6 +24,10 @@
         "source": "/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/src/main/res/drawable/background_gradient_all_corner.xml"
     },
     {
+        "merged": "/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/build/intermediates/res/merged/debug/raw_loading_circle.json.flat",
+        "source": "/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/src/main/res/raw/loading_circle.json"
+    },
+    {
         "merged": "/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
         "source": "/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/src/main/res/drawable/ic_launcher_background.xml"
     },

@@ -40,12 +40,11 @@ class ForecastRvAdapter(
         when (dayAndTemperatures[position].weatherType.toLowerCase(Locale.ROOT)) {
             "clear" -> {
                 holder.weatherIcon.setImageResource(R.drawable.clear)
-                holder.weatherIcon.setImageResource(R.drawable.partlysunny)
-                holder.weatherIcon.setImageResource(R.drawable.rain)
+
             }
-            "cloud" -> {
+            "clouds" -> {
                 holder.weatherIcon.setImageResource(R.drawable.partlysunny)
-                holder.weatherIcon.setImageResource(R.drawable.rain)
+
             }
             "rain" -> holder.weatherIcon.setImageResource(R.drawable.rain)
         }

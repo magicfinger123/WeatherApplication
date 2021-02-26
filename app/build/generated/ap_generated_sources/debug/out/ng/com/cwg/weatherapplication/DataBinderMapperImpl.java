@@ -16,21 +16,17 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import ng.com.cwg.weatherapplication.databinding.FavoritesFragmentBindingImpl;
-import ng.com.cwg.weatherapplication.databinding.HomeFragmentBindingImpl;
 import ng.com.cwg.weatherapplication.databinding.SearchPlaceFragmentBindingImpl;
 
 public class DataBinderMapperImpl extends DataBinderMapper {
   private static final int LAYOUT_FAVORITESFRAGMENT = 1;
 
-  private static final int LAYOUT_HOMEFRAGMENT = 2;
+  private static final int LAYOUT_SEARCHPLACEFRAGMENT = 2;
 
-  private static final int LAYOUT_SEARCHPLACEFRAGMENT = 3;
-
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(3);
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(2);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(ng.com.cwg.weatherapplication.R.layout.favorites_fragment, LAYOUT_FAVORITESFRAGMENT);
-    INTERNAL_LAYOUT_ID_LOOKUP.put(ng.com.cwg.weatherapplication.R.layout.home_fragment, LAYOUT_HOMEFRAGMENT);
     INTERNAL_LAYOUT_ID_LOOKUP.put(ng.com.cwg.weatherapplication.R.layout.search_place_fragment, LAYOUT_SEARCHPLACEFRAGMENT);
   }
 
@@ -48,12 +44,6 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new FavoritesFragmentBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for favorites_fragment is invalid. Received: " + tag);
-        }
-        case  LAYOUT_HOMEFRAGMENT: {
-          if ("layout/home_fragment_0".equals(tag)) {
-            return new HomeFragmentBindingImpl(component, view);
-          }
-          throw new IllegalArgumentException("The tag for home_fragment is invalid. Received: " + tag);
         }
         case  LAYOUT_SEARCHPLACEFRAGMENT: {
           if ("layout/search_place_fragment_0".equals(tag)) {
@@ -114,11 +104,10 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(3);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(2);
 
     static {
       sKeys.put("layout/favorites_fragment_0", ng.com.cwg.weatherapplication.R.layout.favorites_fragment);
-      sKeys.put("layout/home_fragment_0", ng.com.cwg.weatherapplication.R.layout.home_fragment);
       sKeys.put("layout/search_place_fragment_0", ng.com.cwg.weatherapplication.R.layout.search_place_fragment);
     }
   }

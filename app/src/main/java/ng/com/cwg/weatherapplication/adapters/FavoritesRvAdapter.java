@@ -43,6 +43,17 @@ public  class FavoritesRvAdapter extends RecyclerView.Adapter<FavoritesRvAdapter
         String temperature = saveWeatherInfoEntities.get(position).getAverageTemperature();
         holder.info.setText(info);
         holder.currentTempTextView.setText(temperature);
+        switch (saveWeatherInfoEntities.get(position).getWeatherType().toLowerCase()){
+            case "clouds":
+                holder.weatherIcon.setImageResource(R.drawable.partlysunny);
+                break;
+            case "rain":
+                holder.weatherIcon.setImageResource(R.drawable.rain);
+                break;
+            default:
+                holder.weatherIcon.setImageResource(R.drawable.clear);
+                break;
+        }
 
     }
 
