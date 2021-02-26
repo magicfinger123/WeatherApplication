@@ -349,11 +349,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Android JUnit.WeatherForecastInfoTest" />
-        <item itemvalue="Android JUnit.WeatherCurrentInfoTest" />
-        <item itemvalue="Android JUnit.WeatherCurrentInfoTest.getCurrentWeatherTest" />
         <item itemvalue="Gradle.WeatherApplication [signingReport]" />
         <item itemvalue="Android JUnit.WeatherForecastInfoTest.getCurrentWeatherTest" />
+        <item itemvalue="Android JUnit.WeatherForecastInfoTest" />
+        <item itemvalue="Android JUnit.WeatherCurrentInfoTest.getCurrentWeatherTest" />
+        <item itemvalue="Android JUnit.WeatherCurrentInfoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -482,10 +482,10 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="192" y="109" key="MergeDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1614343360580" />
-    <state x="664" y="314" key="MultipleFileMergeDialog" timestamp="1614343374111">
+    <state x="664" y="314" key="MultipleFileMergeDialog" timestamp="1614344700004">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="664" y="314" key="MultipleFileMergeDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1614343374111" />
+    <state x="664" y="314" key="MultipleFileMergeDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1614344700004" />
     <state x="461" y="239" key="SettingsEditor" timestamp="1614342714388">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
