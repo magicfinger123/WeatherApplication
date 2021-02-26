@@ -15,6 +15,8 @@ import android.widget.Button
 import android.widget.EditText
 import androidx.core.app.ActivityCompat
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.Observer
+import androidx.navigation.Navigation
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
@@ -31,9 +33,8 @@ import ng.com.cwg.weatherapplication.R
 import ng.com.cwg.weatherapplication.adapters.ForecastRvAdapter
 import ng.com.cwg.weatherapplication.custom.CustomAlertDialog
 import ng.com.cwg.weatherapplication.db.entity.SaveWeatherInfDto
-import ng.com.cwg.weatherapplication.model.weather.DayAndTemperature
-import ng.com.cwg.weatherapplication.model.weather.WeatherCurrentInfo
-import ng.com.cwg.weatherapplication.model.weather.WeatherData
+import ng.com.cwg.weatherapplication.model.location.LocationModel
+import ng.com.cwg.weatherapplication.model.weather.*
 import ng.com.cwg.weatherapplication.service.WeatherResource
 import ng.com.cwg.weatherapplication.utils.AppConstant
 import ng.com.cwg.weatherapplication.utils.AppUtils
@@ -46,6 +47,10 @@ class HomeFragment : Fragment() {
     private lateinit var fusedLocationClient: FusedLocationProviderClient
     private lateinit var placesClient: PlacesClient
     private lateinit var savedWeatherDto: SaveWeatherInfDto
+    private lateinit var locationObserver: Observer<LocationModel>
+    private lateinit var weatherForcastObseerver: Observer<WeatherResource<WeatherForcastDto>>
+    private lateinit var weatherObseerver: Observer<WeatherResource<WeatherDto>>
+    private lateinit var weatherCurrentInfoObserver: Observer<WeatherCurrentInfo>
     private val AUTOCOMPLETE_REQUEST_CODE = 1
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         return inflater.inflate(R.layout.home_fragment, container, false)
@@ -58,42 +63,41 @@ class HomeFragment : Fragment() {
         placesClient = Places.createClient(requireContext())
         savedWeatherDto = SaveWeatherInfDto()
         savedWeatherDto.date = AppUtils.getDate()
+        initLocationObserver()
+        initWeatherObserver()
+        initForecastObserver()
         locationListener()
-
         addToFav()
-        weatherViewModel.observeCurrentWeatherInfo().observe(viewLifecycleOwner,{
+        initSearch()
+        weatherCurrentInfoObserver = Observer<WeatherCurrentInfo>{
             if (it!=null) {
                 init(it)
             }
-        })
-    }
-    private fun init(it: WeatherCurrentInfo) {
-        savedWeatherDto.averageTemperature = it.currentTemp
-        savedWeatherDto.weatherType = it.weatherType
-        currentTempTextView.text = it.currentTemp
-        minTempTextView.text = it.minTemp
-        maxTempTextView.text = it.maxTemp
-        temperatureTextView.text = it.currentTemp
-        weatherStatusTextView.text = it.weatherType
-
-        when (it.weatherType.toLowerCase()) {
-            "clouds" -> {
-                topRelativeLayout.setBackgroundResource(R.drawable.forest_cloudy)
-                parentLayout.setBackgroundColor(resources.getColor(R.color.colorCloudy))
-            }
-            "rain" -> {
-                topRelativeLayout.setBackgroundResource(R.drawable.forest_rainy)
-                parentLayout.setBackgroundColor(resources.getColor(R.color.colorRainy))
-            }
-            "clear" -> {
-                topRelativeLayout.setBackgroundResource(R.drawable.forest_sunny)
-                parentLayout.setBackgroundColor(resources.getColor(R.color.colorSunny))
-            }
         }
-
+        weatherViewModel.observeCurrentWeatherInfo().observe(viewLifecycleOwner,weatherCurrentInfoObserver)
     }
-    private fun init(lat:String, lon:String, apiKey:String){
-        weatherViewModel.observeInfo(lat,lon,apiKey).observeForever {
+    private fun initLocationObserver(){
+        locationObserver = Observer<LocationModel>{
+            println("location: ${it.latitude}")
+            getForecast(
+                it.latitude.toString(),
+                it.longitude.toString(),
+                getString(R.string.api_key)
+            )
+            init(it.latitude.toString(), it.longitude.toString(), getString(R.string.api_key))
+            savedWeatherDto.latitude = (it.latitude.toString())
+            savedWeatherDto.longitude = (it.longitude.toString())
+            val address =   LocationUtil.getCompleteAddressString(
+                it.latitude!!.toDouble(),
+                it.longitude!!.toDouble(),
+                context
+            )
+            savedWeatherDto.address  = address
+            Log.d("TAG", "locationListener: $address")
+        }
+    }
+    private fun initWeatherObserver(){
+        weatherObseerver = Observer<WeatherResource<WeatherDto>>{
             when (it?.status) {
                 WeatherResource.ResponseStatus.LOADING -> {
                     println("App is loading")
@@ -109,7 +113,8 @@ class HomeFragment : Fragment() {
                         AppUtils.convertKelvinToCelsius(it.data.main!!.tempMax).toString()+resources.getString(
                             R.string.celsius_symbol
                         ),
-                        it.data.weather!![0].main!!
+                        it.data.weather!![0].main!!,
+                        savedWeatherDto.address
                     )
                     weatherViewModel.setWeatherCurrentInfo(weatherCurrentInfo)
                 }
@@ -123,41 +128,9 @@ class HomeFragment : Fragment() {
                 }
             }
         }
-        searchPlaces.setOnClickListener {
-            searchPlaces()
-        }
     }
-    private fun locationListener(){
-        if (ActivityCompat.checkSelfPermission(requireContext(), Manifest.permission.ACCESS_FINE_LOCATION)
-            != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(requireContext(), Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED
-        ) {
-            ActivityCompat.requestPermissions(
-                requireActivity(), arrayOf(Manifest.permission.ACCESS_FINE_LOCATION),
-                AppConstant.PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION
-            )
-            return
-        }
-        weatherViewModel.observeLocation(fusedLocationClient).observe(viewLifecycleOwner, {
-            println("location: ${it.latitude}")
-            getForecast(
-                it.latitude.toString(),
-                it.longitude.toString(),
-                getString(R.string.api_key)
-            )
-            init(it.latitude.toString(), it.longitude.toString(), getString(R.string.api_key))
-            savedWeatherDto.latitude = (it.latitude.toString())
-            savedWeatherDto.longitude = (it.longitude.toString())
-            var address =   LocationUtil.getCompleteAddressString(
-                it.latitude!!.toDouble(),
-                it.longitude!!.toDouble(),
-                context
-            )
-            savedWeatherDto.address  = address
-            Log.d("TAG", "locationListener: $address")
-        })
-    }
-    private fun getForecast(lat:String, lon:String, apiKey:String){
-        weatherViewModel.observeForecast(lat,lon,apiKey).observe(viewLifecycleOwner, {
+    private fun initForecastObserver(){
+        weatherForcastObseerver = Observer<WeatherResource<WeatherForcastDto>>{
             when (it?.status) {
                 WeatherResource.ResponseStatus.LOADING -> {
                     println("App is loading")
@@ -176,7 +149,51 @@ class HomeFragment : Fragment() {
                     println("On Failure")
                 }
             }
-        })
+        }
+    }
+    private fun init(it: WeatherCurrentInfo) {
+        savedWeatherDto.averageTemperature = it.currentTemp
+        savedWeatherDto.weatherType = it.weatherType
+        currentTempTextView.text = it.currentTemp
+        minTempTextView.text = it.minTemp
+        maxTempTextView.text = it.maxTemp
+        temperatureTextView.text = it.currentTemp
+        weatherStatusTextView.text = it.weatherType
+        placeInfo.text = it.address
+        when (it.weatherType.toLowerCase()) {
+            "clouds" -> {
+                topRelativeLayout.setBackgroundResource(R.drawable.forest_cloudy)
+                parentLayout.setBackgroundColor(resources.getColor(R.color.colorCloudy))
+            }
+            "rain" -> {
+                topRelativeLayout.setBackgroundResource(R.drawable.forest_rainy)
+                parentLayout.setBackgroundColor(resources.getColor(R.color.colorRainy))
+            }
+            "clear" -> {
+                topRelativeLayout.setBackgroundResource(R.drawable.forest_sunny)
+                parentLayout.setBackgroundColor(resources.getColor(R.color.colorSunny))
+            }
+        }
+
+    }
+    private fun init(lat:String, lon:String, apiKey:String){
+        weatherViewModel.observeInfo(lat,lon,apiKey).observe(viewLifecycleOwner, weatherObseerver)
+    }
+    private fun locationListener(){
+        if (ActivityCompat.checkSelfPermission(requireContext(), Manifest.permission.ACCESS_FINE_LOCATION)
+            != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(requireContext(), Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED
+        ) {
+            ActivityCompat.requestPermissions(
+                requireActivity(), arrayOf(Manifest.permission.ACCESS_FINE_LOCATION),
+                AppConstant.PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION
+            )
+            return
+        }
+
+        weatherViewModel.observeLocation(fusedLocationClient).observe(viewLifecycleOwner, locationObserver)
+    }
+    private fun getForecast(lat:String, lon:String, apiKey:String){
+        weatherViewModel.observeForecast(lat,lon,apiKey).observe(viewLifecycleOwner, weatherForcastObseerver)
     }
     private fun getDayAndTempAverage(list: List<WeatherData>?, firstTemperature:Double) {
         val dayTempList: ArrayList<DayAndTemperature> = ArrayList()
@@ -206,7 +223,6 @@ class HomeFragment : Fragment() {
                     locationListener()
                 }
             }
-
         }
     }
     private fun initForecastRV(dayTempList: ArrayList<DayAndTemperature>){
@@ -243,6 +259,11 @@ class HomeFragment : Fragment() {
             false
         )
     }
+    private fun initSearch(){
+        searchPlaces.setOnClickListener {
+            searchPlaces()
+        }
+    }
     private fun searchPlaces(){
         val fields = listOf(Place.Field.ID, Place.Field.LAT_LNG, Place.Field.ID)
         val intent = Autocomplete.IntentBuilder(AutocompleteActivityMode.FULLSCREEN, fields)
@@ -255,7 +276,14 @@ class HomeFragment : Fragment() {
                 Activity.RESULT_OK -> {
                     data?.let {
                         val place = Autocomplete.getPlaceFromIntent(data)
-                        AppUtils.debug("Place: ${place.name}, ${place.latLng}")
+                        val latlng = place.latLng.toString().replace("lat/lng:(","").replace(")","").split(",")
+                        val lat = latlng[0].replace("[^\\d.]".toRegex(), "")
+                        val lng = latlng[1].replace("[^\\d.]".toRegex(), "")
+                        Navigation.findNavController(requireView()).navigate(HomeFragmentDirections.actionHomeFragmentToSearchPlace(
+                            LocationModel(lat.toDouble(),lng.toDouble())
+                        ))
+                        AppUtils.debug("Place: ${place.name}, ${place.latLng.toString().replace("(","").replace(")","").split(",")[0]}")
+
                     }
                 }
                 AutocompleteActivity.RESULT_ERROR -> {

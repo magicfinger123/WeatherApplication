@@ -885,6 +885,7 @@
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
+    <color name="textDefault">#7C7980</color>
     <color name="tooltip_background_dark">#e6616161</color>
     <color name="tooltip_background_light">#e6FFFFFF</color>
     <color name="white">#ffffff</color>
@@ -1562,6 +1563,7 @@
     <string name="places_search_error">Can\'t load search results.</string>
     <string name="places_try_again">Try again</string>
     <string name="search_menu_title">Search</string>
+    <string name="search_places_for_weather_info">Search places for weather info</string>
     <string name="select">Favorites</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title">title</string>

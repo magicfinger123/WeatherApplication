@@ -39,6 +39,18 @@
             app:backgroundTint="@null"
             app:iconifiedByDefault="true" />
         <TextView
+            android:id="@+id/placeInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/searchPlaces"
+            android:textColor="#ffffff"
+            android:textAlignment="viewStart"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:layout_marginStart="20dp"
+            android:text="Sunny"/>
+        <TextView
             android:id="@+id/temperatureTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -16,15 +16,16 @@ public class HomeFragmentBindingImpl extends HomeFragmentBinding  {
         sViewsWithIds = new android.util.SparseIntArray();
         sViewsWithIds.put(R.id.topRelativeLayout, 1);
         sViewsWithIds.put(R.id.searchPlaces, 2);
-        sViewsWithIds.put(R.id.temperatureTextView, 3);
-        sViewsWithIds.put(R.id.weatherStatusTextView, 4);
-        sViewsWithIds.put(R.id.tempStatusLV, 5);
-        sViewsWithIds.put(R.id.minTempTextView, 6);
-        sViewsWithIds.put(R.id.currentTempTextView, 7);
-        sViewsWithIds.put(R.id.maxTempTextView, 8);
-        sViewsWithIds.put(R.id.divider, 9);
-        sViewsWithIds.put(R.id.recyclerView, 10);
-        sViewsWithIds.put(R.id.addToFavorite, 11);
+        sViewsWithIds.put(R.id.placeInfo, 3);
+        sViewsWithIds.put(R.id.temperatureTextView, 4);
+        sViewsWithIds.put(R.id.weatherStatusTextView, 5);
+        sViewsWithIds.put(R.id.tempStatusLV, 6);
+        sViewsWithIds.put(R.id.minTempTextView, 7);
+        sViewsWithIds.put(R.id.currentTempTextView, 8);
+        sViewsWithIds.put(R.id.maxTempTextView, 9);
+        sViewsWithIds.put(R.id.divider, 10);
+        sViewsWithIds.put(R.id.recyclerView, 11);
+        sViewsWithIds.put(R.id.addToFavorite, 12);
     }
     // views
     // variables
@@ -33,22 +34,23 @@ public class HomeFragmentBindingImpl extends HomeFragmentBinding  {
     // Inverse Binding Event Handlers
 
     public HomeFragmentBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 12, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 13, sIncludes, sViewsWithIds));
     }
     private HomeFragmentBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (com.google.android.material.floatingactionbutton.FloatingActionButton) bindings[11]
-            , (android.widget.TextView) bindings[7]
-            , (android.view.View) bindings[9]
+            , (com.google.android.material.floatingactionbutton.FloatingActionButton) bindings[12]
             , (android.widget.TextView) bindings[8]
-            , (android.widget.TextView) bindings[6]
+            , (android.view.View) bindings[10]
+            , (android.widget.TextView) bindings[9]
+            , (android.widget.TextView) bindings[7]
             , (android.widget.LinearLayout) bindings[0]
-            , (androidx.recyclerview.widget.RecyclerView) bindings[10]
-            , (android.widget.Button) bindings[2]
-            , (android.widget.LinearLayout) bindings[5]
             , (android.widget.TextView) bindings[3]
-            , (android.widget.RelativeLayout) bindings[1]
+            , (androidx.recyclerview.widget.RecyclerView) bindings[11]
+            , (android.widget.Button) bindings[2]
+            , (android.widget.LinearLayout) bindings[6]
             , (android.widget.TextView) bindings[4]
+            , (android.widget.RelativeLayout) bindings[1]
+            , (android.widget.TextView) bindings[5]
             );
         this.parentLayout.setTag(null);
         setRootTag(root);

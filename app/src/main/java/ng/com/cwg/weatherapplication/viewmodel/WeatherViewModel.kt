@@ -65,9 +65,7 @@ class WeatherViewModel(application: Application) : AndroidViewModel(application)
                             AppUtils.debug("locations details null")
                         }
                         else {
-                            var locationModel = LocationModel()
-                            locationModel.latitude = it.latitude
-                            locationModel.longitude = it.longitude
+                            val locationModel = LocationModel(it.latitude.toDouble(),it.longitude.toDouble())
                             //observeInfo(locationModel.latitude,locationModel.longitude)
                             locationLiveData.value = locationModel
                             AppUtils.debug("locations details $it")

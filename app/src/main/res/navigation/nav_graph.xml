@@ -9,7 +9,11 @@
         android:id="@+id/homeFragment"
         android:name="ng.com.cwg.weatherapplication.view.fragment.HomeFragment"
         android:label="home_fragment"
-        tools:layout="@layout/home_fragment" />
+        tools:layout="@layout/home_fragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_searchPlace"
+            app:destination="@id/searchPlace" />
+    </fragment>
     <fragment
         android:id="@+id/mapsFragment"
         android:name="ng.com.cwg.weatherapplication.view.fragment.MapsFragment"
@@ -19,7 +23,11 @@
         android:id="@+id/searchPlace"
         android:name="ng.com.cwg.weatherapplication.view.fragment.SearchPlace"
         android:label="search_place_fragment"
-        tools:layout="@layout/search_place_fragment" />
+        tools:layout="@layout/search_place_fragment" >
+        <argument
+            android:name="locationModel"
+            app:argType="ng.com.cwg.weatherapplication.model.location.LocationModel" />
+    </fragment>
     <fragment
         android:id="@+id/favoritesFragment"
         android:name="ng.com.cwg.weatherapplication.view.fragment.FavoritesFragment"

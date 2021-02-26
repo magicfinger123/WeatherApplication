@@ -4,7 +4,7 @@
             "outputFile": "/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "/Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/2e753d86d839e82b9ad19693a3cc6669/material-1.3.0/res/values-small-v4/values-small-v4.xml",
+                    "source": "/Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/1352b03baacb549ed3090c168fddd6e9/material-1.3.0/res/values-small-v4/values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

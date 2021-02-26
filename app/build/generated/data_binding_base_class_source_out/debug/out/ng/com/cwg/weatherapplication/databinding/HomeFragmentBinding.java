@@ -38,6 +38,9 @@ public abstract class HomeFragmentBinding extends ViewDataBinding {
   public final LinearLayout parentLayout;
 
   @NonNull
+  public final TextView placeInfo;
+
+  @NonNull
   public final RecyclerView recyclerView;
 
   @NonNull
@@ -58,7 +61,7 @@ public abstract class HomeFragmentBinding extends ViewDataBinding {
   protected HomeFragmentBinding(Object _bindingComponent, View _root, int _localFieldCount,
       FloatingActionButton addToFavorite, TextView currentTempTextView, View divider,
       TextView maxTempTextView, TextView minTempTextView, LinearLayout parentLayout,
-      RecyclerView recyclerView, Button searchPlaces, LinearLayout tempStatusLV,
+      TextView placeInfo, RecyclerView recyclerView, Button searchPlaces, LinearLayout tempStatusLV,
       TextView temperatureTextView, RelativeLayout topRelativeLayout,
       TextView weatherStatusTextView) {
     super(_bindingComponent, _root, _localFieldCount);
@@ -68,6 +71,7 @@ public abstract class HomeFragmentBinding extends ViewDataBinding {
     this.maxTempTextView = maxTempTextView;
     this.minTempTextView = minTempTextView;
     this.parentLayout = parentLayout;
+    this.placeInfo = placeInfo;
     this.recyclerView = recyclerView;
     this.searchPlaces = searchPlaces;
     this.tempStatusLV = tempStatusLV;

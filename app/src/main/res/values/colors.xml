@@ -7,4 +7,5 @@
     <color name="colorCloudy">#54717A</color>
     <color name="colorRainy">#57575D</color>
     <color name="white">#ffffff</color>
+    <color name="textDefault">#7C7980</color>
 </resources>
