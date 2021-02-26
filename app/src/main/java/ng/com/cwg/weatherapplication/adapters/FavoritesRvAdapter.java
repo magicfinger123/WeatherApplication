@@ -43,6 +43,7 @@ public  class FavoritesRvAdapter extends RecyclerView.Adapter<FavoritesRvAdapter
         String temperature = saveWeatherInfoEntities.get(position).getAverageTemperature();
         holder.info.setText(info);
         holder.currentTempTextView.setText(temperature);
+
     }
 
     @Override
