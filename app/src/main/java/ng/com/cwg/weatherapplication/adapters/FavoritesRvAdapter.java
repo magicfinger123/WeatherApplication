@@ -38,9 +38,11 @@ public  class FavoritesRvAdapter extends RecyclerView.Adapter<FavoritesRvAdapter
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        holder.title.setText("Mike");
+        holder.title.setText(saveWeatherInfoEntities.get(position).getTitle());
         String info = saveWeatherInfoEntities.get(position).getWeatherType()+" "+saveWeatherInfoEntities.get(position).getAverageTemperature();
+        String temperature = saveWeatherInfoEntities.get(position).getAverageTemperature();
         holder.info.setText(info);
+        holder.currentTempTextView.setText(temperature);
     }
 
     @Override
@@ -52,12 +54,14 @@ public  class FavoritesRvAdapter extends RecyclerView.Adapter<FavoritesRvAdapter
 
         ImageView weatherIcon;
         TextView title, info;
+        TextView currentTempTextView;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             weatherIcon  = itemView.findViewById(R.id.weatherIcon);
             title  = itemView.findViewById(R.id.title);
             info  = itemView.findViewById(R.id.info);
+            currentTempTextView  = itemView.findViewById(R.id.currentTempTextView);
         }
     }
 }
