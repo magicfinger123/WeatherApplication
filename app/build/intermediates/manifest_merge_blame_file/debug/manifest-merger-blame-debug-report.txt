@@ -56,120 +56,119 @@
 34-->/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/src/main/AndroidManifest.xml:20:9-54
 35        android:supportsRtl="true"
 35-->/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/src/main/AndroidManifest.xml:21:9-35
-36        android:testOnly="true"
-37        android:theme="@style/AppTheme"
-37-->/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/src/main/AndroidManifest.xml:22:9-40
-38        android:usesCleartextTraffic="true" >
-38-->/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/src/main/AndroidManifest.xml:23:9-44
-39
-40        <!--
-41             The API key for Google Maps-based APIs is defined as a string resource.
-42             (See the file "res/values/google_maps_api.xml").
-43             Note that the API key is linked to the encryption key used to sign the APK.
-44             You need a different API key for each encryption key, including the release key that is used to
-45             sign the APK for publishing.
-46             You can define the keys for the debug and release targets in src/debug/ and src/release/.
-47        -->
-48        <meta-data
-48-->/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/src/main/AndroidManifest.xml:34:9-36:55
-49            android:name="com.google.android.geo.API_KEY"
-49-->/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/src/main/AndroidManifest.xml:35:13-58
-50            android:value="@string/google_maps_key" />
-50-->/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/src/main/AndroidManifest.xml:36:13-52
-51
-52        <activity
-52-->/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/src/main/AndroidManifest.xml:38:9-46:20
-53            android:name="ng.com.cwg.weatherapplication.view.MainActivity"
-53-->/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/src/main/AndroidManifest.xml:39:13-46
-54            android:theme="@style/Theme.AppCompat.NoActionBar" >
-54-->/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/src/main/AndroidManifest.xml:40:13-63
-55            <intent-filter>
-55-->/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/src/main/AndroidManifest.xml:41:13-45:29
-56                <action android:name="android.intent.action.MAIN" />
-56-->/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/src/main/AndroidManifest.xml:42:17-69
-56-->/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/src/main/AndroidManifest.xml:42:25-66
-57
-58                <category android:name="android.intent.category.LAUNCHER" />
-58-->/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/src/main/AndroidManifest.xml:44:17-77
-58-->/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/src/main/AndroidManifest.xml:44:27-74
-59            </intent-filter>
-60        </activity>
-61        <activity
-61-->[com.google.android.libraries.places:places:2.4.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/033f3a95e68d220a9df945fc91432b66/jetified-places-2.4.0/AndroidManifest.xml:14:9-20:20
-62            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
-62-->[com.google.android.libraries.places:places:2.4.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/033f3a95e68d220a9df945fc91432b66/jetified-places-2.4.0/AndroidManifest.xml:15:13-91
-63            android:exported="false"
-63-->[com.google.android.libraries.places:places:2.4.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/033f3a95e68d220a9df945fc91432b66/jetified-places-2.4.0/AndroidManifest.xml:16:13-37
-64            android:label="@string/places_autocomplete_label"
-64-->[com.google.android.libraries.places:places:2.4.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/033f3a95e68d220a9df945fc91432b66/jetified-places-2.4.0/AndroidManifest.xml:17:13-62
-65            android:theme="@style/PlacesAutocompleteOverlay"
-65-->[com.google.android.libraries.places:places:2.4.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/033f3a95e68d220a9df945fc91432b66/jetified-places-2.4.0/AndroidManifest.xml:18:13-61
-66            android:windowSoftInputMode="adjustResize" >
-66-->[com.google.android.libraries.places:places:2.4.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/033f3a95e68d220a9df945fc91432b66/jetified-places-2.4.0/AndroidManifest.xml:19:13-55
-67        </activity> <!-- Needs to be explicitly declared on P+ -->
-68        <uses-library
-68-->[com.google.android.gms:play-services-maps:17.0.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/026d2aa1a53af4cc8acfe8c7409b3751/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
-69            android:name="org.apache.http.legacy"
-69-->[com.google.android.gms:play-services-maps:17.0.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/026d2aa1a53af4cc8acfe8c7409b3751/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
-70            android:required="false" />
-70-->[com.google.android.gms:play-services-maps:17.0.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/026d2aa1a53af4cc8acfe8c7409b3751/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
-71
-72        <activity
-72-->[com.google.android.gms:play-services-base:17.5.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/99e04a8377a3171a3328a90992c45dab/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
-73            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-73-->[com.google.android.gms:play-services-base:17.5.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/99e04a8377a3171a3328a90992c45dab/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
-74            android:exported="false"
-74-->[com.google.android.gms:play-services-base:17.5.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/99e04a8377a3171a3328a90992c45dab/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
-75            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-75-->[com.google.android.gms:play-services-base:17.5.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/99e04a8377a3171a3328a90992c45dab/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
-76
-77        <meta-data
-77-->[com.google.android.gms:play-services-basement:17.5.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/03d699077c11202c8d814ca23330dcd9/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
-78            android:name="com.google.android.gms.version"
-78-->[com.google.android.gms:play-services-basement:17.5.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/03d699077c11202c8d814ca23330dcd9/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
-79            android:value="@integer/google_play_services_version" />
-79-->[com.google.android.gms:play-services-basement:17.5.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/03d699077c11202c8d814ca23330dcd9/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
-80
-81        <provider
-81-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/644b1a104b1786c0f3d2740e41318bbe/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
-82            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-82-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/644b1a104b1786c0f3d2740e41318bbe/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
-83            android:authorities="ng.com.cwg.weatherapplication.lifecycle-process"
-83-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/644b1a104b1786c0f3d2740e41318bbe/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
-84            android:exported="false"
-84-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/644b1a104b1786c0f3d2740e41318bbe/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
-85            android:multiprocess="true" />
-85-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/644b1a104b1786c0f3d2740e41318bbe/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
-86
-87        <service
-87-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/48fcca4bd80e35c38c22850721132d0f/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:29:9-35:19
-88            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-88-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/48fcca4bd80e35c38c22850721132d0f/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:30:13-103
-89            android:exported="false" >
-89-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/48fcca4bd80e35c38c22850721132d0f/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:31:13-37
-90            <meta-data
-90-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/48fcca4bd80e35c38c22850721132d0f/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:32:13-34:39
-91                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-91-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/48fcca4bd80e35c38c22850721132d0f/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:33:17-94
-92                android:value="cct" />
-92-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/48fcca4bd80e35c38c22850721132d0f/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:34:17-36
-93        </service>
-94        <service
-94-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/4147c8d3f0320b3fcaa3a0c93773e6b7/jetified-transport-runtime-2.2.3/AndroidManifest.xml:26:9-30:19
-95            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-95-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/4147c8d3f0320b3fcaa3a0c93773e6b7/jetified-transport-runtime-2.2.3/AndroidManifest.xml:27:13-117
-96            android:exported="false"
-96-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/4147c8d3f0320b3fcaa3a0c93773e6b7/jetified-transport-runtime-2.2.3/AndroidManifest.xml:28:13-37
-97            android:permission="android.permission.BIND_JOB_SERVICE" >
-97-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/4147c8d3f0320b3fcaa3a0c93773e6b7/jetified-transport-runtime-2.2.3/AndroidManifest.xml:29:13-69
-98        </service>
-99
-100        <receiver
-100-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/4147c8d3f0320b3fcaa3a0c93773e6b7/jetified-transport-runtime-2.2.3/AndroidManifest.xml:32:9-34:40
-101            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-101-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/4147c8d3f0320b3fcaa3a0c93773e6b7/jetified-transport-runtime-2.2.3/AndroidManifest.xml:33:13-132
-102            android:exported="false" />
-102-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/4147c8d3f0320b3fcaa3a0c93773e6b7/jetified-transport-runtime-2.2.3/AndroidManifest.xml:34:13-37
-103    </application>
-104
-105</manifest>
+36        android:theme="@style/AppTheme"
+36-->/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/src/main/AndroidManifest.xml:22:9-40
+37        android:usesCleartextTraffic="true" >
+37-->/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/src/main/AndroidManifest.xml:23:9-44
+38
+39        <!--
+40             The API key for Google Maps-based APIs is defined as a string resource.
+41             (See the file "res/values/google_maps_api.xml").
+42             Note that the API key is linked to the encryption key used to sign the APK.
+43             You need a different API key for each encryption key, including the release key that is used to
+44             sign the APK for publishing.
+45             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+46        -->
+47        <meta-data
+47-->/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/src/main/AndroidManifest.xml:34:9-36:55
+48            android:name="com.google.android.geo.API_KEY"
+48-->/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/src/main/AndroidManifest.xml:35:13-58
+49            android:value="@string/google_maps_key" />
+49-->/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/src/main/AndroidManifest.xml:36:13-52
+50
+51        <activity
+51-->/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/src/main/AndroidManifest.xml:38:9-46:20
+52            android:name="ng.com.cwg.weatherapplication.view.MainActivity"
+52-->/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/src/main/AndroidManifest.xml:39:13-46
+53            android:theme="@style/Theme.AppCompat.NoActionBar" >
+53-->/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/src/main/AndroidManifest.xml:40:13-63
+54            <intent-filter>
+54-->/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/src/main/AndroidManifest.xml:41:13-45:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/src/main/AndroidManifest.xml:42:17-69
+55-->/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/src/main/AndroidManifest.xml:42:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/src/main/AndroidManifest.xml:44:17-77
+57-->/Users/cwgitsupport/Desktop/cwg/WeatherApplication/app/src/main/AndroidManifest.xml:44:27-74
+58            </intent-filter>
+59        </activity>
+60        <activity
+60-->[com.google.android.libraries.places:places:2.4.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/033f3a95e68d220a9df945fc91432b66/jetified-places-2.4.0/AndroidManifest.xml:14:9-20:20
+61            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+61-->[com.google.android.libraries.places:places:2.4.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/033f3a95e68d220a9df945fc91432b66/jetified-places-2.4.0/AndroidManifest.xml:15:13-91
+62            android:exported="false"
+62-->[com.google.android.libraries.places:places:2.4.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/033f3a95e68d220a9df945fc91432b66/jetified-places-2.4.0/AndroidManifest.xml:16:13-37
+63            android:label="@string/places_autocomplete_label"
+63-->[com.google.android.libraries.places:places:2.4.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/033f3a95e68d220a9df945fc91432b66/jetified-places-2.4.0/AndroidManifest.xml:17:13-62
+64            android:theme="@style/PlacesAutocompleteOverlay"
+64-->[com.google.android.libraries.places:places:2.4.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/033f3a95e68d220a9df945fc91432b66/jetified-places-2.4.0/AndroidManifest.xml:18:13-61
+65            android:windowSoftInputMode="adjustResize" >
+65-->[com.google.android.libraries.places:places:2.4.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/033f3a95e68d220a9df945fc91432b66/jetified-places-2.4.0/AndroidManifest.xml:19:13-55
+66        </activity> <!-- Needs to be explicitly declared on P+ -->
+67        <uses-library
+67-->[com.google.android.gms:play-services-maps:17.0.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/026d2aa1a53af4cc8acfe8c7409b3751/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+68            android:name="org.apache.http.legacy"
+68-->[com.google.android.gms:play-services-maps:17.0.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/026d2aa1a53af4cc8acfe8c7409b3751/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+69            android:required="false" />
+69-->[com.google.android.gms:play-services-maps:17.0.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/026d2aa1a53af4cc8acfe8c7409b3751/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+70
+71        <activity
+71-->[com.google.android.gms:play-services-base:17.5.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/99e04a8377a3171a3328a90992c45dab/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+72            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+72-->[com.google.android.gms:play-services-base:17.5.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/99e04a8377a3171a3328a90992c45dab/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+73            android:exported="false"
+73-->[com.google.android.gms:play-services-base:17.5.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/99e04a8377a3171a3328a90992c45dab/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+74            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+74-->[com.google.android.gms:play-services-base:17.5.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/99e04a8377a3171a3328a90992c45dab/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+75
+76        <meta-data
+76-->[com.google.android.gms:play-services-basement:17.5.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/03d699077c11202c8d814ca23330dcd9/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+77            android:name="com.google.android.gms.version"
+77-->[com.google.android.gms:play-services-basement:17.5.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/03d699077c11202c8d814ca23330dcd9/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+78            android:value="@integer/google_play_services_version" />
+78-->[com.google.android.gms:play-services-basement:17.5.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/03d699077c11202c8d814ca23330dcd9/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+79
+80        <provider
+80-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/644b1a104b1786c0f3d2740e41318bbe/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+81            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+81-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/644b1a104b1786c0f3d2740e41318bbe/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+82            android:authorities="ng.com.cwg.weatherapplication.lifecycle-process"
+82-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/644b1a104b1786c0f3d2740e41318bbe/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+83            android:exported="false"
+83-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/644b1a104b1786c0f3d2740e41318bbe/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+84            android:multiprocess="true" />
+84-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/644b1a104b1786c0f3d2740e41318bbe/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+85
+86        <service
+86-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/48fcca4bd80e35c38c22850721132d0f/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:29:9-35:19
+87            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+87-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/48fcca4bd80e35c38c22850721132d0f/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:30:13-103
+88            android:exported="false" >
+88-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/48fcca4bd80e35c38c22850721132d0f/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:31:13-37
+89            <meta-data
+89-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/48fcca4bd80e35c38c22850721132d0f/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:32:13-34:39
+90                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+90-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/48fcca4bd80e35c38c22850721132d0f/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:33:17-94
+91                android:value="cct" />
+91-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/48fcca4bd80e35c38c22850721132d0f/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:34:17-36
+92        </service>
+93        <service
+93-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/4147c8d3f0320b3fcaa3a0c93773e6b7/jetified-transport-runtime-2.2.3/AndroidManifest.xml:26:9-30:19
+94            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+94-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/4147c8d3f0320b3fcaa3a0c93773e6b7/jetified-transport-runtime-2.2.3/AndroidManifest.xml:27:13-117
+95            android:exported="false"
+95-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/4147c8d3f0320b3fcaa3a0c93773e6b7/jetified-transport-runtime-2.2.3/AndroidManifest.xml:28:13-37
+96            android:permission="android.permission.BIND_JOB_SERVICE" >
+96-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/4147c8d3f0320b3fcaa3a0c93773e6b7/jetified-transport-runtime-2.2.3/AndroidManifest.xml:29:13-69
+97        </service>
+98
+99        <receiver
+99-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/4147c8d3f0320b3fcaa3a0c93773e6b7/jetified-transport-runtime-2.2.3/AndroidManifest.xml:32:9-34:40
+100            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+100-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/4147c8d3f0320b3fcaa3a0c93773e6b7/jetified-transport-runtime-2.2.3/AndroidManifest.xml:33:13-132
+101            android:exported="false" />
+101-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/cwgitsupport/.gradle/caches/transforms-2/files-2.1/4147c8d3f0320b3fcaa3a0c93773e6b7/jetified-transport-runtime-2.2.3/AndroidManifest.xml:34:13-37
+102    </application>
+103
+104</manifest>
